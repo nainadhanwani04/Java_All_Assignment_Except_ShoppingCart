@@ -7,7 +7,7 @@ public class InputOutputOperations {
 
     public static void CreateFile()
     {
-        File directory=new File("Users/Naina Dhanwani/projects");
+        File directory=new File("Users/nainadhanwani/projects/naina");
         if(!directory.exists())
         {
             directory.mkdir();
@@ -16,4 +16,7 @@ public class InputOutputOperations {
 
     }
 
+    public static void main(String[] args) {
+        CreateFile();
+    }
 }
